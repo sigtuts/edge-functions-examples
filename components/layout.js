@@ -44,11 +44,6 @@ export default function layout(data) {
 
     ${data.url.pathname !== "/" ? explainer : ""}
     <hr/>
-    <section>
-      <h3>Deploy this site to Netlify</h3>
-      <p>Try out Edge Functions on Netlify today! Click the button below to deploy this site with all of its demos to your Netlify account.</p>
-      ${deployButton()}
-    </section>
 
   </main>
   ${footer()}
